@@ -1,0 +1,37 @@
+.page {
+  min-height: 100vh;
+}
+.main {
+  padding: 88px var(--margin-mobile) 96px;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .main {
+    padding: 104px var(--margin-desktop) 32px;
+  }
+}
+.masonry {
+  column-count: 2;
+  column-gap: var(--gutter);
+}
+@media (min-width: 768px) {
+  .masonry {
+    column-count: 4;
+  }
+}
+@media (min-width: 1024px) {
+  .masonry {
+    column-count: 5;
+  }
+}
+@media (min-width: 1280px) {
+  .masonry {
+    column-count: 6;
+  }
+}
+.empty {
+  text-align: center;
+  color: var(--secondary);
+  padding: 48px;
+}

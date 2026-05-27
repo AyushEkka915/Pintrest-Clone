@@ -1,0 +1,9 @@
+.btn {
+  padding: 8px;
+  border-radius: 9999px;
+  color: var(--primary);
+  transition: background 0.2s;
+}
+.btn:hover {
+  background: var(--surface-container-high);
+}

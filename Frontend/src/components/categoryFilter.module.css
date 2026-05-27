@@ -1,0 +1,31 @@
+.scroll {
+  overflow-x: auto;
+  margin-bottom: 32px;
+  padding: 8px 0;
+  scrollbar-width: none;
+}
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+.row {
+  display: flex;
+  gap: 12px;
+  min-width: max-content;
+}
+.pill {
+  padding: 10px 20px;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 14px;
+  white-space: nowrap;
+  background: var(--surface-container);
+  color: var(--on-surface);
+  transition: background 0.2s, transform 0.1s;
+}
+.pill:hover {
+  background: var(--surface-container-high);
+}
+.pill.active {
+  background: var(--on-surface);
+  color: var(--surface);
+}
