@@ -244,7 +244,7 @@ Add your license here *(e.g. MIT)* if required for your course or repo.
 ## 👤 Author
 
 **Your Name**
-GitHub: [@your-github-username](https://github.com/your-github-username)
+GitHub: [@your-github-username](https://github.com/AyushEkka915)
 
 ---
 
